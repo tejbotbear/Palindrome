@@ -1,11 +1,12 @@
+#include <iostream>
 #include <cstring>
+using namespace std;
 
+int main() {
 
-int Palindrome {
-
-  cin >> Input;
-  char Input[] = Input
+  char Input[80];
+  cin.get(Input, 100);
+  cout << Input << endl;
   
-
 
 }
