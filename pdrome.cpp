@@ -4,9 +4,19 @@ using namespace std;
 
 int main() {
 
-  char Input[80];
-  cin.get(Input, 100);
-  cout << Input << endl;
+  int Length;
   
+  char Input[100];
+  cin.getline(Input, 100, '\n');
+  Length = strlen(Input);
+  //cout << Input << endl;
 
+  for (int i = 0; i < Length; i++) {
+
+    if (isalpha(Input[i])) {
+
+	cout << "hello" << endl;
+      
+    }
+  }
 }
